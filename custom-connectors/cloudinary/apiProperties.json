@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "connectionParameters": {
+      "api_key": {
+        "type": "securestring",
+        "uiDefinition": {
+          "displayName": "Cloudinary API Key",
+          "description": "The Cloudinary API Key for your instance.",
+          "tooltip": "The Cloudinary API Key for your instance. Get yours at https://cloudinary.com.",
+          "constraints": {
+            "tabIndex": 2,
+            "clearText": false,
+            "required": "true"
+          }
+        }
+      }
+    },
+    "iconBrandColor": "#3448c5",
+    "capabilities": [],
+    "publisher": "Cloudinary",
+    "stackOwner": "Cloudinary"
+  }
+}
